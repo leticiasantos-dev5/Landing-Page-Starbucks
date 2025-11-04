@@ -2,48 +2,47 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="src/css/styles.css">
-    <title>Starbucks</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Font Awesome (versão estável 6.x) -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS compilado pelo Sass (⚠️ sempre .css, nunca .scss) -->
+  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="stylesheet" href="src/css/styles.css">
+
+  <title>Starbucks</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar"></nav>
-            <img src="src/images/logo-starbucks.png" 
-            alt="logo Starbucks"
-            class="logo"
-            >
+  <header>
+    <nav class="navbar">
+      <!-- Logo -->
+      <img src="src/images/logo-starbucks.png" 
+           alt="Logo Starbucks"
+           class="logo">
 
-            <button class="btn btn-mobile">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+      <!-- Botão mobile (hamburguer) -->
+      <button class="btn btn-mobile" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
 
-            <ul id="nav-links">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#trending">Em alta</a>
-                </li>
-                <li>
-                    <a href="#aboult">Sobre nós</a>
-                </li>
-                <li>
-                    <a href="#products">Novidades</a>
-                </li>
-            </ul>
+      <!-- Links de navegação -->
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#trending">Em alta</a></li>
+        <li><a href="#about">Sobre nós</a></li>
+        <li><a href="#products">Novidades</a></li>
+      </ul>
 
-            <a href="#"class="btn btn-default">
-                Contatar
-            </a>
-    </header>
-
+      <!-- Botão de contato -->
+      <a href="#" class="btn btn-default">Contatar</a>
+    </nav>
+  </header>
 </body>
 
 </html>
